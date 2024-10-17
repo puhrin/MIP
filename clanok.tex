@@ -9,6 +9,8 @@
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
 \usepackage{times}
 \usepackage{cite}
+\usepackage[demo]{graphicx}
+\usepackage{subfig}
 
 \pagestyle{headings}
 
@@ -39,6 +41,24 @@ Dynamický rast A.I. v posledných rokoch a jeho implementácia preformovala hud
 
 
 \section{Úvod}
+
+\section{Úvod}
+
+\begin{figure}
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{graf1.pdf}
+  \captionof{figure}{A figure}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{graf2.pdf}
+  \captionof{figure}{Another figure}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
 
 Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
 
